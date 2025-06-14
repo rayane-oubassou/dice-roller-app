@@ -1,0 +1,36 @@
+#container {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 10px;
+}
+
+button {
+  font-size:  1.5rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border:none;
+  background-color: rgb(157, 48, 48);
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button:active {
+  background-color: red;
+
+}
+
+input {
+  font-size: 2rem;
+  width: 150px ;
+  text-align: center;
+  font-weight: bold;
+}
